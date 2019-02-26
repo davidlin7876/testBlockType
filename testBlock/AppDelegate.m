@@ -68,7 +68,7 @@ static int globleStaticInt = 0;
     };
     NSLog(@"copyProp:%@", _testlock);
     //4.Block是函数的返回值
-    NSLog(@"funcReturn%@", [self test]);
+    NSLog(@"funcReturn:%@", [self test]);
 }
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
