@@ -26,9 +26,10 @@ copy操作后计数加1。
 2. 栈Block被强引用，被赋值给__strong或者id类型
 3. 被copy修饰的成员属性引用
 3. Block是函数的返回值
-4. 调用系统API入参中含有usingBlcok的方法，以及GCD方法
+4. 调用系统API入参中含有usingBlock的方法，以及GCD方法
 
-```
+验证代码:
+```Objective-C
 int globleInt = 0;
 static int globleStaticInt = 0;
 
